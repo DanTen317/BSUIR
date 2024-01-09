@@ -1,0 +1,370 @@
+section_subject_domain_of_astronomy
+
+    => nrel_main_idtf:
+    [Раздел. Предметная область астрономии]
+    (* <- lang_ru;; *);
+    [Section. Subject domain of astronomy]
+    (* <- lang_en;; *);
+
+    <=nrel_decomposition:...
+    (*
+        <-sc_node_tuple;;
+        <-section_subject_domain_of_stars
+        (*
+            <-sc_node_struct;;
+            => nrel_main_idtf:
+                [Раздел. Предметная область звезд]
+                (* <- lang_ru;; *);;
+        *);;
+
+        <-section_subject_domain_of_planets
+        (*
+            <-sc_node_struct;;
+            => nrel_main_idtf:
+                [Раздел. Предметная область планет]
+                (* <- lang_ru;; *);;
+        *);;
+
+        <-section_subject_domain_of_satellites
+        (*
+            <-sc_node_struct;;
+            => nrel_main_idtf:
+                [Раздел. Предметная область спутников]
+                (* <- lang_ru;; *);;
+        *);;
+
+        <-section_subject_domain_of_meteoroids
+        (*
+            <-sc_node_struct;;
+            => nrel_main_idtf:
+                [Раздел. Предметная область метеорооидов]
+                (* <- lang_ru;; *);;
+        *);;
+
+        <-section_subject_domain_of_asteroids
+        (*
+            <-sc_node_struct;;
+            => nrel_main_idtf:
+                [Раздел. Предметная область астероидов]
+                (* <- lang_ru;; *);;
+        *);;
+
+        <-section_subject_domain_of_comets
+        (*
+            <-sc_node_struct;;
+            => nrel_main_idtf:
+                [Раздел. Предметная область комет]
+                (* <- lang_ru;; *);;
+        *);;
+
+        <-section_subject_domain_of_galaxies
+        (*
+            <-sc_node_struct;;
+            => nrel_main_idtf:
+                [Раздел. Предметная область галактик]
+                (* <- lang_ru;; *);;
+        *);;
+
+        <-section_subject_domain_of_nebulas
+        (*
+            <-sc_node_struct;;
+            => nrel_main_idtf:
+                [Раздел. Предметная область туманностей]
+                (* <- lang_ru;; *);;
+        *);;
+
+        <-section_subject_domain_of_black_holes
+        (*
+            <-sc_node_struct;;
+            => nrel_main_idtf:
+                [Раздел. Предметная область чёрных дыр]
+                (* <- lang_ru;; *);;
+        *);;
+
+        <-section_subject_domain_of_quasars
+        (*
+            <-sc_node_struct;;
+            => nrel_main_idtf:
+                [Раздел. Предметная область квазаров]
+                (* <- lang_ru;; *);;
+        *);;
+
+        <-section_subject_domain_of_clusters
+        (*
+            <-sc_node_struct;;
+            => nrel_main_idtf:
+                [Раздел. Предметная область скоплений]
+                (* <- lang_ru;; *);;
+        *);;
+
+        <-section_subject_domain_of_constellation
+        (*
+            <-sc_node_struct;;
+            => nrel_main_idtf:
+                [Раздел. Предметная область созвездий]
+                (* <- lang_ru;; *);;
+        *);;
+
+        <-section_subject_domain_of_astrophysics
+        (*
+            <-sc_node_struct;;
+            => nrel_main_idtf:
+                [Раздел. Предметная область астрофизики]
+                (* <- lang_ru;; *);;
+        *);;
+        
+        <-section_subject_domain_of_astrochemistry
+        (*
+            <-sc_node_struct;;
+            => nrel_main_idtf:
+                [Раздел. Предметная область астрохимии]
+                (* <- lang_ru;; *);;
+        *);;
+
+        <-section_subject_domain_of_astrobiology
+        (*
+            <-sc_node_struct;;
+            => nrel_main_idtf:
+                [Раздел. Предметная область астробиологии]
+                (* <- lang_ru;; *);;
+        *);;
+
+        <-section_subject_domain_of_cosmology
+        (*
+            <-sc_node_struct;;
+            => nrel_main_idtf:
+                [Раздел. Предметная область космологии]
+                (* <- lang_ru;; *);;
+        *);;
+
+        <-section_subject_domain_of_planetary_science
+        (*
+            <-sc_node_struct;;
+            => nrel_main_idtf:
+                [Раздел. Предметная область планетологии]
+                (* <- lang_ru;; *);;
+        *);;
+
+        <-section_subject_domain_of_celestial_mechanics
+        (*
+            <-sc_node_struct;;
+            => nrel_main_idtf:
+                [Раздел. Предметная область небесной механики]
+                (* <- lang_ru;; *);;
+        *);;
+    *);;
+
+    ->rrel_key_sc_element:
+        concept_astronomy (* => nrel_main_idtf: [Астрономия] (* <- lang_ru;; *);; *);
+        concept_star (* => nrel_main_idtf: [Звезда] (* <- lang_ru;; *);; *);
+        concept_planet (* => nrel_main_idtf: [Планета] (* <- lang_ru;; *);; *);
+        concept_meteoroid (* => nrel_main_idtf: [Метеороид] (* <- lang_ru;; *);; *);
+        concept_asteroid (* => nrel_main_idtf: [Астероид] (* <- lang_ru;; *);; *);
+        concept_comet (* => nrel_main_idtf: [Комета] (* <- lang_ru;; *);; *);
+        concept_galaxy (* => nrel_main_idtf: [Галактики] (* <- lang_ru;; *);; *);
+        concept_nebulas (* => nrel_main_idtf: [Туманность] (* <- lang_ru;; *);; *);
+        concept_black_hole (* => nrel_main_idtf: [Чёрная дыра] (* <- lang_ru;; *);; *);
+        concept_quasar (* => nrel_main_idtf: [Квазар] (* <- lang_ru;; *);; *);
+        concept_cluster (* => nrel_main_idtf: [Скопление] (* <- lang_ru;; *);; *);
+        concept_constellation (* => nrel_main_idtf: [Созвездие] (* <- lang_ru;; *);; *);
+        concept_astrophysics (* => nrel_main_idtf: [Астрофизика] (* <- lang_ru;; *);; *);
+        concept_astrochemistry (* => nrel_main_idtf: [Астрохимия] (* <- lang_ru;; *);; *);
+        concept_astrobiology (* => nrel_main_idtf: [Астробиология] (* <- lang_ru;; *);; *);
+        concept_cosmology (* => nrel_main_idtf: [Космология] (* <- lang_ru;; *);; *);
+        concept_planetary_science (* => nrel_main_idtf: [Планетология] (* <- lang_ru;; *);; *);
+        concept_celestial_mechanics (* => nrel_main_idtf: [Небесная механика] (* <- lang_ru;; *);; *);
+        nrel_satellite (* => nrel_main_idtf: [Спутник] (* <- lang_ru;; *);; *);
+        nrel_gravitational_attraction (* => nrel_main_idtf: [Гравитационное притяжение] (* <- lang_ru;; *);; *);
+        nrel_system (* => nrel_main_idtf: [Система] (* <- lang_ru;; *);; *);
+ 
+    <-non_atomic_section;;
+
+section_subject_domain_of_astronomy
+    = [*
+        subject_domain_of_astronomy
+            => nrel_main_idtf:
+                [Предметная область астономии]
+                (* <- lang_ru;; *);
+                [Subject domain of astronomy]
+                (*lang_en*);
+
+                <-subject_domain;
+                <-sc_node_struct;
+
+                => nrel_private_subject_domain:
+                    <-subject_domain_of_stars
+                    (*
+                        <-sc_node_struct;;
+                        => nrel_main_idtf:
+                            [Раздел. Предметная область звезд]
+                            (* <- lang_ru;; *);;
+                    *);
+
+                    <-subject_domain_of_planets
+                    (*
+                        <-sc_node_struct;;
+                        => nrel_main_idtf:
+                            [Раздел. Предметная область планет]
+                            (* <- lang_ru;; *);;
+                    *);
+
+                    <-subject_domain_of_satellites
+                    (*
+                        <-sc_node_struct;;
+                        => nrel_main_idtf:
+                            [Раздел. Предметная область спутников]
+                            (* <- lang_ru;; *);;
+                    *);
+
+                    <-subject_domain_of_meteoroids
+                    (*
+                        <-sc_node_struct;;
+                        => nrel_main_idtf:
+                            [Раздел. Предметная область метеорооидов]
+                            (* <- lang_ru;; *);;
+                    *);
+
+                    <-subject_domain_of_asteroids
+                    (*
+                        <-sc_node_struct;;
+                        => nrel_main_idtf:
+                            [Раздел. Предметная область астероидов]
+                            (* <- lang_ru;; *);;
+                    *);
+
+                    <-subject_domain_of_comets
+                    (*
+                        <-sc_node_struct;;
+                        => nrel_main_idtf:
+                            [Раздел. Предметная область комет]
+                            (* <- lang_ru;; *);;
+                    *);
+
+                    <-subject_domain_of_galaxies
+                    (*
+                        <-sc_node_struct;;
+                        => nrel_main_idtf:
+                            [Раздел. Предметная область галактик]
+                            (* <- lang_ru;; *);;
+                    *);
+
+                    <-subject_domain_of_nebulas
+                    (*
+                        <-sc_node_struct;;
+                        => nrel_main_idtf:
+                            [Раздел. Предметная область туманностей]
+                            (* <- lang_ru;; *);;
+                    *);
+
+                    <-subject_domain_of_black_holes
+                    (*
+                        <-sc_node_struct;;
+                        => nrel_main_idtf:
+                            [Раздел. Предметная область чёрных дыр]
+                            (* <- lang_ru;; *);;
+                    *);
+
+                    <-subject_domain_of_quasars
+                    (*
+                        <-sc_node_struct;;
+                        => nrel_main_idtf:
+                            [Раздел. Предметная область квазаров]
+                            (* <- lang_ru;; *);;
+                    *);
+
+                    <-subject_domain_of_clusters
+                    (*
+                        <-sc_node_struct;;
+                        => nrel_main_idtf:
+                            [Раздел. Предметная область скоплений]
+                            (* <- lang_ru;; *);;
+                    *);
+
+                    <-subject_domain_of_constellation
+                    (*
+                        <-sc_node_struct;;
+                        => nrel_main_idtf:
+                            [Раздел. Предметная область созвездий]
+                            (* <- lang_ru;; *);;
+                    *);
+
+                    <-subject_domain_of_astrophysics
+                    (*
+                        <-sc_node_struct;;
+                        => nrel_main_idtf:
+                            [Раздел. Предметная область астрофизики]
+                            (* <- lang_ru;; *);;
+                    *);
+
+                    <-subject_domain_of_astrochemistry
+                    (*
+                        <-sc_node_struct;;
+                        => nrel_main_idtf:
+                            [Раздел. Предметная область астрохимии]
+                            (* <- lang_ru;; *);;
+                    *);
+
+                    <-subject_domain_of_astrobiology
+                    (*
+                        <-sc_node_struct;;
+                        => nrel_main_idtf:
+                            [Раздел. Предметная область астробиологии]
+                            (* <- lang_ru;; *);;
+                    *);
+
+                    <-subject_domain_of_cosmology
+                    (*
+                        <-sc_node_struct;;
+                        => nrel_main_idtf:
+                            [Раздел. Предметная область космологии]
+                            (* <- lang_ru;; *);;
+                    *);
+
+                    <-subject_domain_of_planetary_science
+                    (*
+                        <-sc_node_struct;;
+                        => nrel_main_idtf:
+                            [Раздел. Предметная область планетологии]
+                            (* <- lang_ru;; *);;
+                    *);
+
+                    <-subject_domain_of_celestial_mechanics
+                    (*
+                        <-sc_node_struct;;
+                        => nrel_main_idtf:
+                            [Раздел. Предметная область небесной механики]
+                            (* <- lang_ru;; *);;
+                    *);
+
+        <= nrel_private_subject_domain:
+                subject_domain_of_astronomy;
+
+        -> rrel_maximum_studied_object_class:
+            concept_astronomy;
+            
+        -> rrel_not_maximum_studied_object_class:
+            concept_astronomy;
+            concept_star;
+            concept_planet;
+            concept_meteoroid ;
+            concept_asteroid;
+            concept_comet;
+            concept_galaxy;
+            concept_nebulas;
+            concept_black_hole;
+            concept_quasar;
+            concept_cluster;
+            concept_constellation;
+            concept_astrophysics;
+            concept_astrochemistry;
+            concept_astrobiology;
+            concept_cosmology;
+            concept_planetary_science;
+            concept_celestial_mechanics;
+
+        -> rrel_explored_relation:
+            nrel_satellite ;
+            nrel_gravitational_attraction;
+            nrel_system;;
+
+    *];;

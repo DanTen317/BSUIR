@@ -1,0 +1,7 @@
+Graph: gr2
+Nodes:
+v1 r 2 1
+v3 n 6 8
+
+Edges:
+v1-v3 m 0

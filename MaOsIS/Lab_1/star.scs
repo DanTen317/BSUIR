@@ -1,0 +1,155 @@
+concept_star
+    <-sc_node_class;
+    <- concept_astronomical_object
+        (* <- sc_node_class;;*);;
+
+concept_star
+    => nrel_main_idtf:
+    [Звезда]
+    (* <- lang_ru;; *);
+    [Star]
+    (* <- lang_en;;*);;
+
+concept_star => nrel_structure:... 
+    (*
+        <-sc_node_not_binary_tuple;;
+        ->concept_core
+            (* <- sc_node_class;; *);;
+        ->concept_convection_zone
+            (* <- sc_node_class;; *);;
+        ->concept_radiation_zone
+            (* <- sc_node_class;; *);;
+    *);;
+concept_star <- rrel_key_element:...
+    (*
+        <-definition;;
+        => nrel_sc_text_translation:...
+        (*
+            <- sc_node_not_binary_tuple;;
+            -> [Звезда — массивный газовый шар,
+             излучающий свет и удерживаемый 
+             в состоянии равновесия силами 
+             собственной гравитации и внутренним 
+             давлением, в недрах которого происходят 
+             (или происходили ранее) реакции термоядерного 
+             синтеза.] 
+                (*<- lang_ru;;*);;
+             -> [A star is an astronomical object 
+             comprising a luminous spheroid of plasma 
+             held together by self-gravity.] 
+                (*<- lang_en;;*);;
+        *);;
+        <= nrel_used_constants:...
+        (*
+            ->concept_object(*<-sc_node_class;;*);;
+            ->concept_ball(*<-sc_node_class;;*);;
+            ->concept_light(*<-sc_node_class;;*);;
+            ->concept_force(*<-sc_node_class;;*);;
+            ->concept_balance(*<-sc_node_class;;*);;
+            ->concept_gravity(*<-sc_node_class;;*);;
+            ->concept_pressure(*<-sc_node_class;;*);;
+            ->concept_plasma(*<-sc_node_class;;*);;
+            ->concept_reaction(*<-sc_node_class;;*);;
+            ->concept_synthesis(*<-sc_node_class;;*);;
+        *);;
+    *);;
+concept_stellar_class
+    <-sc_node_class;
+    ->concept_stellar_class_B(*<-sc_node_class;;*);
+    ->concept_stellar_class_O(*<-sc_node_class;;*);
+    ->concept_stellar_class_A(*<-sc_node_class;;*);
+    ->concept_stellar_class_F(*<-sc_node_class;;*);
+    ->concept_stellar_class_G(*<-sc_node_class;;*);
+    ->concept_stellar_class_K(*<-sc_node_class;;*);
+    ->concept_stellar_class_M(*<-sc_node_class;;*);;
+
+concept_star => nrel_partition:... 
+    (*
+    <-sc_node_not_binary_tuple;;
+    ->concept_stellar_class_O;;
+    ->concept_stellar_class_B;;
+    ->concept_stellar_class_A;;
+    ->concept_stellar_class_F;;
+    ->concept_stellar_class_G;;
+    ->concept_stellar_class_K;;
+    ->concept_stellar_class_M;;
+    *);;
+    
+concept_luminosity_classes
+        <-sc_node_class;
+        -> concept_I
+        (*
+            <-sc_node_class;;
+            => nrel_idtf:
+                [сверхгигант]
+                (* <- lang_ru;; *);;
+        *);
+        -> concept_II
+        (*
+            <-sc_node_class;;
+            => nrel_idtf:
+                [яркий гигант]
+                (* <- lang_ru;; *);;
+        *);
+        -> concept_III
+        (*
+            <-sc_node_class;;
+            => nrel_idtf:
+                [гигант]
+                (* <- lang_ru;; *);;
+        *);
+        -> concept_IV
+        (*
+            <-sc_node_class;;
+            => nrel_idtf:
+                [субгигант]
+                (* <- lang_ru;; *);;
+        *);
+        -> concept_V
+        (*
+            <-sc_node_class;;
+            => nrel_idtf:
+                [карлик]
+                (* <- lang_ru;; *);
+                [звезда главной последовательности]
+                (* <- lang_ru;; *);;
+        *);
+        -> concept_VI
+        (*
+            <-sc_node_class;;
+            => nrel_idtf:
+                [субкарлик]
+                (* <- lang_ru;; *);;
+        *);
+        -> concept_VII
+        (*
+            <-sc_node_class;;
+            => nrel_idtf:
+                [белый карлик]
+                (* <- lang_ru;; *);;
+        *);; 
+
+concept_star => nrel_partition:... 
+    (*
+        <-sc_node_not_binary_tuple;;
+        ->concept_I;;
+        ->concept_II;;
+        ->concept_III;;
+        ->concept_IV;;
+        ->concept_V;;
+        ->concept_VI;;
+        ->concept_VII;;
+    *);;
+
+concept_Yerkes_classification
+    ->concept_stellar_class;
+    ->concept_luminosity;;
+concept_Sun
+    => nrel_main_idtf:
+        [Солнце]
+        (* <- lang_ru;; *);
+        [Sun]
+        (* <- lang_en;;*);
+    <-concept_star;
+    <-concept_stellar_class_G;
+    <-concept_V;;

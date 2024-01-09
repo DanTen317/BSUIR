@@ -1,0 +1,16 @@
+﻿  GraphEditor.cpp
+C:\Users\Danii\Desktop\МОИС\Lab_5\GraphEditor\GraphEditor.cpp(51,16): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Danii\Desktop\МОИС\Lab_5\GraphEditor\GraphEditor.cpp(52,16): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Danii\Desktop\МОИС\Lab_5\GraphEditor\GraphEditor.cpp(90,16): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Danii\Desktop\МОИС\Lab_5\GraphEditor\GraphEditor.cpp(91,16): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Danii\Desktop\МОИС\Lab_5\GraphEditor\GraphEditor.cpp(108,32): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\Danii\Desktop\МОИС\Lab_5\GraphEditor\GraphEditor.cpp(109,30): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\Danii\Desktop\МОИС\Lab_5\GraphEditor\GraphEditor.cpp(110,32): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\Danii\Desktop\МОИС\Lab_5\GraphEditor\GraphEditor.cpp(111,30): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\Danii\Desktop\МОИС\Lab_5\GraphEditor\GraphEditor.cpp(140,23): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\Danii\Desktop\МОИС\Lab_5\GraphEditor\GraphEditor.cpp(518,15): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Danii\Desktop\МОИС\Lab_5\GraphEditor\GraphEditor.cpp(519,15): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Danii\Desktop\МОИС\Lab_5\GraphEditor\GraphEditor.cpp(629,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Danii\Desktop\МОИС\Lab_5\GraphEditor\GraphEditor.cpp(634,9): warning C4101: choice: неиспользованная локальная переменная
+C:\Users\Danii\Desktop\МОИС\Lab_5\GraphEditor\GraphEditor.cpp(631,12): warning C4101: graph: неиспользованная локальная переменная
+  GraphEditor.vcxproj -> C:\Users\Danii\Desktop\МОИС\Lab_5\GraphEditor\x64\Debug\GraphEditor.exe
